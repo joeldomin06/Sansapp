@@ -1,0 +1,25 @@
+.star-cont input{
+    display: none;
+}
+.star-cont label{
+    font-size: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: right;
+}
+.star-cont .rating{
+    font-size: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.star-cont .checked{
+    color: #F4D03F;
+}
+
+.star-cont input:not(:checked) ~ label:hover,
+.star-cont input:not(:checked) ~ label:hover ~ label{
+    color: #F4D03F;
+}
+.star-cont input:checked ~ label{
+    color: #F4D03F;
+}

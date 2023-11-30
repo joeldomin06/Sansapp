@@ -1,0 +1,6 @@
+ul.list-group{
+    height: 360px; width: auto;
+}
+ul.list-group{
+    overflow: hidden; overflow-y: scroll;
+}
